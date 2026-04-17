@@ -1,20 +1,114 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2WKYJ1YE3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Brand</title>
 
-  gtag('config', 'G-M2WKYJ1YE3');
-</script>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #ffcc00;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.feature {
+    margin: 10px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+/* PRODUCT */
+.product {
+    text-align: center;
+    padding: 30px;
+}
+
+.product img {
+    width: 250px;
+}
+
+.product button {
+    background: #1e3c72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
 </head>
+
 <body>
-    <h1>Rahul</h1>
+
+<div class="hero">
+    <h1>Welcome to My Store</h1>
+    <p>Your one-stop shop for amazing products</p>
+    <button>Explore Now</button>
+</div>
+
+<div class="features">
+    <div class="feature">🚚 Free Delivery</div>
+    <div class="feature">💰 Best Price</div>
+    <div class="feature">⭐ Top Quality</div>
+</div>
+
+<div class="product">
+    <h2>Featured Product</h2>
+    <img src="https://via.placeholder.com/250">
+    <p>High quality product for everyday use.</p>
+    <h3 style="color:red;">₹999</h3>
+    <button>Buy Now</button>
+</div>
+
+<footer>
+    <p>© 2026 My Brand</p>
+</footer>
+
 </body>
 </html>
